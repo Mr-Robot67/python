@@ -1,0 +1,18 @@
+print("#####################")
+print("\n")
+print("Hi this is my First Python Project :) \nI'm Omar the Boy who wrote this script")
+print("\n")
+print("So How this Script Works you have to write three numbers")
+print("then press enter in every time you write a number")
+print("\n")
+print("then the greatest number will be excuted :)")
+print("\n")
+print("#####################")
+print("\n")
+
+x = float(input("Enter 1st number : "))
+y = float(input("Enter 2st number : "))
+z = float(input("Enter 3st number : "))
+
+print("The max value is : ", max(x, y, z))
+input("Press any key to continue ...")
